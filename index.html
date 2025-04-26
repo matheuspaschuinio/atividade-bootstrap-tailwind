@@ -9,7 +9,12 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        Confira as principais notícias do esporte!
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-principal">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">+Esportes</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,19 +26,18 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Categorias</a>
+                <a class="nav-link" href="#categorias">Categorias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link active" aria-current="page" href="#duvidas">Dúvidas</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Outras páginas
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="outros-componentes.html">Componentes não utilizados</a></li>
+                  <li><a class="dropdown-item" href="tailwind.html">Tailwind</a></li>
                 </ul>
               </li>
             </ul>
@@ -42,6 +46,9 @@
       </nav>
 
       <div class="container">
+
+        <h1>Principais Notícias</h1>
+
         <div id="carouselCardsExample" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
         
@@ -54,7 +61,7 @@
                       <div class="card-body d-flex flex-column">
                         <h5 class="card-title">EL CLÁSICO! BARCELONA E REAL DECIDEM A FINAL DA COPA O REI</h5>
                         <p class="card-text">Maiores rivais do futebol espanhol voltam a decidir a competição após 11 anos, e os dois lados contam com brasileiros no time titular</p>
-                        <a href="#" class="btn btn-primary mt-auto">Leia mais</a>
+                        <a href="#" class="btn btn-principal mt-auto">Leia mais</a>
                       </div>
                     </div>
                   </div>
@@ -65,7 +72,7 @@
                       <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Matheus Lima alcança melhor tempo da carreira e recorde sul-americano na Diamond League</h5>
                         <p class="card-text">Brasileiro ficou em segundo lugar na prova de 300m com barreira na etapa de Xiamen, na China, da competição</p>
-                        <a href="#" class="btn btn-primary mt-auto">Leia mais</a>
+                        <a href="#" class="btn btn-principal mt-auto">Leia mais</a>
                       </div>
                     </div>
                   </div>
@@ -76,7 +83,7 @@
                       <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Rivaldo, sobre recusa de Tite ao Corinthians: "Momento é parar e olhar para a saúde mental"</h5>
                         <p class="card-text">Campeão do mundo em 2002 com a Seleção Brasileira, ex-jogador do Corinthians também destaca que treinador "é um exemplo a ser seguido"</p>
-                        <a href="#" class="btn btn-primary mt-auto">Leia mais</a>
+                        <a href="#" class="btn btn-principal mt-auto">Leia mais</a>
                       </div>
                     </div>
                   </div>
@@ -86,7 +93,180 @@
         
             </div>
           </div>
+
+          <h2>Notícias Recentes <span class="badge text-bg-primary">Agora!</span></h2>
+
+          <div class="container-fluid mt-5">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/esporte/31/2025/04/26/sophia-medina-foi-terceira-colocada-em-saquarema-1745682838787_v2_300x300.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Irmã de Medina comete interferência e é eliminada na estreia em Maresias</h5>
+                          <p class="card-text">Uma das grandes esperanças da torcida local em Maresias, Sophia Medina acabou se despedindo precocemente da segunda etapa do Qualifying Series (QS) da América do Sul da WSL, válida também como a primeira prova do Circuito Banco do Brasil de Surfe deste ano.</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/parceiros/08/2025/04/26/motogp-marc-marquez-vence-sprint-do-gp-da-espanha-e-reafirma-lideranca-do-campeonato-1745680836323_v2_300x225.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">MotoGP: Marc Márquez vence sprint do GP da Espanha e reafirma liderança do campeonato</h5>
+                          <p class="card-text">Hexacampeão da categoria domina prova em Jerez; Quartararo cai e abandona na segunda volta.</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/esporte/e0/2025/04/26/novak-djokovic-contra-matteo-arnaldi-pelo-masters-1000-de-madri-1745685678627_v2_300x225.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Djokovic é surpreendido por 44º do mundo e cai na estreia em Madri</h5>
+                          <p class="card-text">Três vezes campeão do Masters 1000 de Madri, Novak Djokovic foi surpreendido logo na sua estreia na atual edição do torneio. O sérvio, número 5 do mundo, perdeu para o italiano Matteo Arnaldi, 44º do ranking, por 2 sets a 0, com parciais de 6/3 e 6/4, em 1h42min de partida.</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/esporte/8c/2025/01/12/raphinha-comemora-apos-marcar-para-o-barcelona-contra-o-real-madrid-na-supercopa-da-espanha-1736713861460_v2_300x225.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Onde vai passar Barcelona x Real Madrid pela Copa do Rei? Como assistir ao vivo</h5>
+                          <p class="card-text">Barcelona e Real Madrid medem forças hoje, às 17h (de Brasília), no estádio La Cartuja, em Sevilha, pela final da Copa do Rei.</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/esporte/a2/2025/04/26/bayern-de-munique-vence-o-maiz-05-pelo-campeonato-ingles-1745683984271_v2_450x450.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Bayern vence, mas ainda não é campeão e mantém 'maldição' de Kane</h5>
+                          <p class="card-text">O Bayern de Munique venceu o Mainz 05 por 3 a 0, mas ainda não garantiu o título do Campeonato Alemão. Sané, Olise e Dier marcaram para os bávaros no triunfo pela 31ª rodada.</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-1 col-sm-6 col-md-4">
+                    <div class="card h-100">
+                        <img src="https://conteudo.imguol.com.br/c/esporte/07/2025/04/26/atacante-senegales-nicolas-jackson-comemora-o-seu-gol-na-vitoria-do-chelsea-sobre-o-everton-pelo-ingles-1745677201809_v2_450x450.jpg.webp" class="card-img-top" alt="...">
+                        <div class="card-body d-flex flex-column">
+                          <h5 class="card-title">Chelsea vence Everton em casa e segue firme na briga pela vaga na Champions</h5>
+                          <p class="card-text">Com um gol solitário do atacante Nicolas Jackson ainda na primeira etapa, o Chelsea venceu o Everton por 1 a 0, em casa, neste sábado (26), pela 34ª rodada do Campeonato Inglês</p>
+                          <a href="#" class="btn btn-principal mt-auto">Ler mais</a>
+                        </div>
+                      </div>
+                </div>
+            </div> 
+          </div>
+
+          <h2 id="categorias">Categorias</h2>
+
+          <div class="d-flex justify-content-center">
+            <div class="btn-group" id="categorias-botoes">
+                <a href="#" class="btn btn-categorias">Futebol</a>
+                <a href="#" class="btn btn-categorias">MMA</a>
+                <a href="#" class="btn btn-categorias">Futsal</a>
+                <a href="#" class="btn btn-categorias">NBB</a>
+                <a href="#" class="btn btn-categorias">Fórmula 1</a>
+            </div>
+          </div>
+
+          <h2>Receber por Email</h2>
+
+          <form>
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome.">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Insira seu email." aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Não compartilhe seu email com desconhecidos!</div>
+            </div>
+            <button type="submit" class="btn btn-enviar" data-bs-toggle="modal" data-bs-target="#ModalConfirma">Enviar</button>
+          </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="ModalConfirma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmar ?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Confirmar</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+          <h2 id="duvidas">Dúvidas Frequentes</h2>
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Como acessar as notícias completas?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>Basta clicar no botão "Leia mais" dentro de cada card de notícia para acessar a matéria completa.</strong></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    O portal é gratuito?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong>Sim! Todo o conteúdo do portal é gratuito e acessível para todos os usuários.</strong></div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Como faço para receber emails de novas notícias?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><strong> Basta preencher o formulário, enviar e depois confirmar.</strong></div>
+              </div>
+            </div>
+          </div>
+
       </div>
+
+      <nav class="navbar navbar-expand-lg bg-body-principal">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">+Esportes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#categorias">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#duvidas">Dúvidas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>       
       
 
 

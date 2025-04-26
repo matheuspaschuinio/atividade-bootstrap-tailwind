@@ -1,0 +1,33 @@
+h1, h2 {
+    text-align: center;
+    padding: 40px;
+}
+
+.bg-body-principal {
+    background-color: #0dcaf0;
+}
+
+.btn-principal {
+    background-color: #6eb4ff;
+}
+
+.btn-principal:hover {
+    background-color: #056bd8;
+}
+
+.btn-enviar {
+    background-color: #28a745;
+}
+
+.btn-enviar:hover {
+    background-color: #207a35;
+}
+
+.btn-categorias {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+.btn-categorias:hover {
+    background-color: #6f42c1;
+}
