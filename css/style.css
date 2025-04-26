@@ -31,3 +31,31 @@ h1, h2 {
 .btn-categorias:hover {
     background-color: #6f42c1;
 }
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.centralizar h1 {
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.centralizar ul li {
+    font-size: 40px;
+}
+
+.menu-link {
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.menu-link a {
+    background-color: #e1f00d;
+    border-radius: 10px;
+}
